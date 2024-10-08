@@ -12,6 +12,7 @@ setup(
         "geopandas",
         "kaleido",
         "pandas[parquet]",
+        "pandas",
         "plotly",
         "shapely",
         "smart_open[s3]",
@@ -19,6 +20,9 @@ setup(
         "smart_open",
         "boto3",
         "pyarrow",
+        "confluent_kafka",
+        "faker",
+        "dotenv"
     ],
     extras_require={"dev": ["dagster-webserver", "pytest"]},
 )
