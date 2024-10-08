@@ -225,3 +225,10 @@ scripts/.build
 
 # dbt .user files
 .user.yml
+
+# =====================
+# Confluent Kafka gitignore
+# =====================
+
+*config.py
+
