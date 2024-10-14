@@ -9,7 +9,7 @@ setup(
         "dagster-postgres",
         "dagster-dbt",
         "dbt-postgres",
-        "geopandas",
+        # "geopandas",
         "kaleido",
         "pandas[parquet]",
         "pandas",
